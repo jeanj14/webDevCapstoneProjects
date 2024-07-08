@@ -139,6 +139,8 @@ ul li {
 
 .skill-img {
     float: left;
+    width: 200px;
+    height: 200px;
 }
 
 .skill-text {
@@ -193,7 +195,7 @@ a {
     justify-content: center;
 }
 
-@media (max-width: 980px){
+@media (max-width: 1079px){
 
     body {
         height: 100%;
@@ -221,8 +223,9 @@ a {
         flex-direction: column;
     }
 
-    img {
+    #me {
         margin: auto;
+        width: fit-content;
     }
     
     .profile-text {
