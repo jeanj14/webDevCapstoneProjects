@@ -158,6 +158,7 @@ ul li {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 button {
@@ -196,6 +197,7 @@ a {
 
     body {
         height: 100%;
+        width: fit-content;
     }
 
     nav {
@@ -227,6 +229,10 @@ a {
         margin: auto 30px 30px;
     }
     
+    .skill-text > p {
+        font-size: 12px;
+    }
+
     #contact-container {
         font-size: 15px;
     }
