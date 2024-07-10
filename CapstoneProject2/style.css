@@ -8,6 +8,7 @@ body {
     width: fit-content;
     flex-shrink: 1;
     height: 100%;
+    width: 100vw;
     margin: 0;
 }
 
@@ -204,7 +205,7 @@ a {
 
     body {
         height: 100%;
-        width: 100vw;
+        width: fit-content;
     }
 
     nav {
