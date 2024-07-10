@@ -70,10 +70,6 @@ ul li {
 }
 
 #home {
-    display: flex;
-    align-items: center;
-
-    justify-content: space-evenly;
     background-image: url("./assets/images/blue-sea-2.webp");
     background-repeat: no-repeat;
     background-size: cover;
