@@ -1,3 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&family=DM+Serif+Text:ital@0;1&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    font-family: 'DM Sans', sans-serif;
+}
+
+nav {
+    padding: 1rem 2rem;
+}
+
+body {
+    margin : 0;
+}
+
+.container {
+    margin: 0;
+    padding: 2rem 1rem;
+}
+
+.card-title {
+    font-family: 'DM Serif Display';
+}
+
+.card-text {
+    font-family: 'DM Serif Text';
+}
+
+.card {
+    min-height: 20rem;
+}
+
+a.btn {
+    align-self: flex-end;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: darkgray;
 }
