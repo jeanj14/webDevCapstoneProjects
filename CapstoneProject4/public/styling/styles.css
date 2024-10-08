@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+.text-body-emphasis {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+}
+
+/* height="300px" width="500px" */
