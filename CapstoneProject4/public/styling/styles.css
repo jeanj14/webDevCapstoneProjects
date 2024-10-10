@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin : 0;
+}
+
 .text-body-emphasis {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -9,3 +13,16 @@
 }
 
 /* height="300px" width="500px" */
+
+@media (max-width: 700px) {
+  .business-img {
+    max-height: 50%;
+    width: 100%;
+    padding: 1rem;
+
+  }
+
+  .text-body-emphasis {
+    padding: 1rem;
+  }
+}
